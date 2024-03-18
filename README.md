@@ -6,3 +6,6 @@ zipcodes_SMC.csv source: https://www.ciclt.net/sn/clt/capitolimpact/gw_ziplist.a
 
 SMC_zipcodes_shapefile.zip source: https://geodata.lib.berkeley.edu/catalog/stanford-gm175wm1954
 - Geopandas data for shape of each SMC zipcode
+
+income_SMC_counts.csv
+- I took the census data that Eden had organized, converted the percentages from objects into floats, then multiplied by the household count to get counts of each income bracket by zip code
